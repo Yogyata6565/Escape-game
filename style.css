@@ -1,0 +1,133 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(puzzel.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 10px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.123);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 30px;
+    width: 400px;
+    margin: 150px auto;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+
+p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 20px;
+    color: white;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
+    background-color:#00aaff;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+
+button:hover{
+    background-color: #0077aa;
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        padding: 10px;
+        margin-top: 90px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+    }
+
+    label {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    input {
+        padding: 5px;
+        font-size: 6px;
+        border-radius: 2px;
+    }
+
+    button {
+        padding: 6px;
+        font-size: 6px;
+        margin: 5px;
+        border-radius: 2px;
+    }
+}
+
+
+@media (max-width: 900px) {
+  .card {
+    width: 80%;
+    margin: 100px auto;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
